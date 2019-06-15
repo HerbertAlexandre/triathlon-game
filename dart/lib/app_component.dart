@@ -13,5 +13,4 @@ import 'src/hero_service.dart';
   exports: [RoutePaths, Routes],
 )
 class AppComponent {
-  final title = 'Tour of Heroes';
 }
