@@ -1,0 +1,29 @@
+th{
+    background-color: var(--color2);
+    color: var(--color3);
+}
+.tablediv{
+    padding: 0px;
+    background-color: var(--color3);
+    border-color: var(--color2);
+    border-width: fine;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.table{
+    margin: 0px;
+}
+.flag{
+    width: 25px;
+    height: auto;
+}
+ul{
+    background-color: var(--color2);
+}
+tr:hover{
+    background-color: var(--color5);
+}

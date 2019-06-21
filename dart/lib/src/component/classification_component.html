@@ -1,3 +1,100 @@
-<body>
-Hello World Classification
-</body>
+<div class="container menu">
+    <div class="row">
+        <div class="col-sm-3">
+            <button type="button" class="btn">
+                <i class="material-icons menuicon" (click)="goBackToHome()">home</i>
+            </button>
+        </div>
+        <div class="col-sm-3">
+            <h3>Leeds - 05.06.19</h3>
+        </div>
+        <div class="col-sm-3">
+            <h3>Partie 1</h3>
+        </div>
+        <div class="col-sm-2">
+            <h3>Titou du 85</h3>
+        </div>
+        <div class="col-sm-1">
+            <div class="btn-group dropleft">
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="material-icons menuicon">menu</i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#/profile">Mon profil</a><br/>
+                    <a class="dropdown-item" href="#">Paramètres</a><br/>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#/login">Me déconnecter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container alert results frame">
+    <div class="row">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-1 below">
+            <h4>Résultats</h4>
+        </div>
+        <div class="col-sm-7">
+        </div>
+        <div class="col-sm-2">
+            <button type="submit" class="btn" (click)="goToGamePage()">Retour à l'accueil</button>
+        </div>
+    </div>
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-10 alert tablediv">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col"><i class="material-icons">arrow_drop_down</i></th>
+                            <th scope="col">Nom <i class="material-icons">arrow_drop_down</i></th>
+                            <th scope="col">Prénom <i class="material-icons">arrow_drop_down</i></th>
+                            <th scope="col">Pays <i class="material-icons">arrow_drop_down</i></th>
+                            <th scope="col">Naissance <i class="material-icons">arrow_drop_down</i></th>
+                            <th scope="col"><i class="material-icons">pool</i><i class="material-icons">arrow_drop_down</i></th>
+                            <th scope="col"><i class="material-icons">directions_bike</i><i class="material-icons">arrow_drop_down</i></th>
+                            <th scope="col"><i class="material-icons">directions_run</i><i class="material-icons">arrow_drop_down</i></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>LUIS</td>
+                            <td>Vincent</td>
+                            <td><img class="flag" src="img/flag/fr.svg"></td>
+                            <td>1989</td>
+                            <td>17'34"</td>
+                            <td>55'31"</td>
+                            <td>30'22"</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>MOLA</td>
+                            <td>Mario</td>
+                            <td><img class="flag" src="img/flag/es.svg"></td>
+                            <td>1990</td>
+                            <td>17'34"</td>
+                            <td>55'31"</td>
+                            <td>30'22"</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>BLUMMENFELT</td>
+                            <td>Kristian</td>
+                            <td><img class="flag" src="img/flag/no.svg"></td>
+                            <td>1994</td>
+                            <td>17'34"</td>
+                            <td>55'31"</td>
+                            <td>30'22"</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-sm-1">
+                </div>
+            </div>
+</div>

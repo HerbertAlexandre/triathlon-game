@@ -1,3 +1,89 @@
-<body>
-Hello World Welcome
-</body>
+<div class="container menu">
+    <div class="row">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-2">
+            <h3>Titou du 85</h3>
+        </div>
+        <div class="col-sm-1">
+            <div class="btn-group dropleft">
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="material-icons menuicon">menu</i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#/profile">Mon profil</a><br/>
+                    <a class="dropdown-item" href="#">Paramètres</a><br/>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#/login">Me déconnecter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="alert container frame">
+    <div class="row">
+        <div class="alert head">
+            <h4 class="white">Accueil</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-10">
+            <div class="row createbutton">
+                <button class="btn" (click)="createNewGame()">Commencer une nouvelle partie</button>
+            </div>
+            <div class="row">
+                <h4 class="blue">Mes parties</h4>
+            </div>
+            <div class="row alert tablediv">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Nom</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Athlète</th>
+                        <th scope="col"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Partie 1</td>
+                        <td>Leeds 2019</td>
+                        <td>Vincent LUIS</td>
+                        <td><i class="material-icons">edit</i><i class="material-icons">delete</i></td>
+                    </tr>
+                    <tr>
+                        <td>Partie 2</td>
+                        <td>Yokohama 2018</td>
+                        <td>Mario MOLA</td>
+                        <td><i class="material-icons">edit</i><i class="material-icons">delete</i></td>
+                    </tr>
+                    <tr>
+                        <td>Partie 3</td>
+                        <td>Rotterdam 2017</td>
+                        <td>Javier GOMEZ</td>
+                        <td><i class="material-icons">edit</i><i class="material-icons">delete</i></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="row openbutton">
+                <div class="row">
+                    <div class="col-sm-6">
+                    </div>
+                    <div class="col-sm-6">
+                        <button class="btn" (click)="openGame()">Ouvrir la partie sélectionnée</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-1">
+        </div>
+    </div>
+</div>

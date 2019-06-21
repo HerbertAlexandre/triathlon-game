@@ -1,0 +1,76 @@
+.menu{
+    background-color: var(--color2);
+    width: 100%;
+    color: var(--color3);
+    margin-bottom : 50px;
+}
+.menuicon{
+    padding-top: 7px;
+    font-size: 18px;
+}
+h3{
+    margin-top: 8px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+.dropdown-item{
+    margin-top: 5px;
+    text-align: right;
+}
+.dropdown-menu{
+    background-color: var(--color5);
+    padding: 10px;
+}
+.btn{
+    background-color: var(--color2);
+}
+.flag{
+    width: 25px;
+    height: auto;
+}
+.frame{
+    padding-top: 0px;
+    margin-bottom: 40px;
+    background-color: var(--color5);
+    border-color: var(--color2);
+    border-width: fine;
+}
+th{
+    background-color: var(--color2);
+    color: var(--color3);
+}
+.tablediv{
+    padding: 0px;
+    background-color: var(--color3);
+    border-color: var(--color2);
+    border-width: fine;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.table{
+    margin: 0px;
+}
+.below{
+    padding-top: 8px;
+}
+h4.blue {
+    color: var(--color2);
+    font-weight: bold;
+}
+h4.white {
+    color: var(--color3);
+    font-weight: bold;
+}
+tr:hover{
+    background-color: var(--color5);
+}
+.head{
+    background-color: var(--color2);
+    height: 35px;
+    padding-bottom: 20px;
+    padding-top: 8px;
+    padding-left: 30px;
+}

@@ -1,0 +1,83 @@
+.next_race{
+    margin-top: 40px;
+}
+.material-icons{
+    padding-left: 3px;
+}
+h4{
+    color: var(--color2);
+    font-weight: bold;
+}
+.card{
+    border-color: var(--color2);
+    border-width: medium;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0px;
+    width: 50%;
+    background-color: var(--color5);
+    height: 500px;
+}
+.profileimg{
+    width: 125px;
+    height: auto;
+}
+.flag{
+    width: 40px;
+    height: auto;
+}
+.athlete_info{
+    padding-top: 20px;
+    margin: 0px;
+}
+.level_info{
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border-left: medium solid var(--color2);
+    width: 95px;
+    background-color: var(--color3);
+}
+.card_row{
+    padding: 0px;
+    margin: 0px;
+}
+hr{
+  padding: 0px;
+  margin: 0px;
+  display: block;
+  border-top: medium solid var(--color2);
+}
+.ranking_results{
+    margin-left: auto;
+    margin-right: auto;
+}
+.table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile{
+    border-right: fine solid var(--color2);
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    background-color: var(--color2);
+    font-weight: bold;
+}
+.info{
+    border-color: var(--color2);
+    border-width: medium;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 400px;
+    background-color: var(--color5);
+}
+.tablediv{
+    font-weight: bold;
+}

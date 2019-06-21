@@ -15,7 +15,4 @@ class AthletesGameComponent {
   final Router _router;
 
   AthletesGameComponent(this._router);
-
-  Future<NavigationResult> gotoDetail() =>
-      _router.navigate(RoutePaths.hero.toUrl());
 }

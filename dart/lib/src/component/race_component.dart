@@ -16,6 +16,9 @@ class RaceComponent {
 
   RaceComponent(this._router);
 
-  Future<NavigationResult> gotoDetail() =>
-      _router.navigate(RoutePaths.hero.toUrl());
+  Future<NavigationResult> goBackToHome() =>
+      _router.navigate(RoutePaths.welcome.toUrl());
+
+  Future<NavigationResult> goToResults() =>
+      _router.navigate(RoutePaths.classification.toUrl());
 }

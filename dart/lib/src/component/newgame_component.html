@@ -1,3 +1,101 @@
-<body>
-Hello World NewGame
-</body>
+<div class="container menu">
+    <div class="row">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-2">
+            <h3>Titou du 85</h3>
+        </div>
+        <div class="col-sm-1">
+            <div class="btn-group dropleft">
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="material-icons menuicon">menu</i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#/profile">Mon profil</a><br/>
+                    <a class="dropdown-item" href="#">Paramètres</a><br/>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#/login">Me déconnecter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container alert frame">
+    <div class="row">
+        <div class="alert head">
+            <h4 class="white">Nouvelle partie</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-2 below">
+            <h4 class="blue">Nom de la partie</h4>
+        </div>
+        <div class="col-sm-2">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nom">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-10 alert tablediv">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Nom</th>
+                    <th scope="col">Prénom</th>
+                    <th scope="col">Pays</th>
+                    <th scope="col">Naissance</th>
+                    <th scope="col"><i class="material-icons">pool</i></th>
+                    <th scope="col"><i class="material-icons">directions_bike</i></th>
+                    <th scope="col"><i class="material-icons">directions_run</i></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>LUIS</td>
+                    <td>Vincent</td>
+                    <td><img class="flag" src="img/flag/fr.svg"></td>
+                    <td>1989</td>
+                    <td>82</td>
+                    <td>78</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>MOLA</td>
+                    <td>Mario</td>
+                    <td><img class="flag" src="img/flag/es.svg"></td>
+                    <td>1990</td>
+                    <td>71</td>
+                    <td>77</td>
+                    <td>84</td>
+                </tr>
+                <tr>
+                    <td>BLUMMENFELT</td>
+                    <td>Kristian</td>
+                    <td><img class="flag" src="img/flag/no.svg"></td>
+                    <td>1994</td>
+                    <td>74</td>
+                    <td>83</td>
+                    <td>77</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-sm-1">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+        </div>
+        <div class="col-sm-2 below">
+            <button type="submit" class="btn" (click)="createGame()">Créer la partie</button>
+        </div>
+    </div>
+</div>

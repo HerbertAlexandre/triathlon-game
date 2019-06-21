@@ -1,0 +1,29 @@
+.results{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+th{
+    background-color: var(--color2);
+    color: var(--color3);
+}
+.tablediv{
+    padding: 0px;
+    background-color: var(--color3);
+    border-color: var(--color2);
+    border-width: fine;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.table{
+    margin: 0px;
+}
+h4{
+    color: var(--color2);
+    font-weight: bold;
+}
+tr:hover{
+    background-color: var(--color5);
+}

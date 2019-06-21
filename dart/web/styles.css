@@ -1,6 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Material+Icons);
 
+:root {
+    --color1:#FBB901;
+    --color2:#040B75;
+    --color3:white;
+    --color4:#FEEFD1;
+    --color5:#E5E5FB;
+    --color6:black;
+}
+
 /* Master Styles */
 h1 {
   color: #369;
@@ -19,21 +28,24 @@ body {
 }
 header{
     height: 80px;
-    background-color: #FBB901;
-    margin-bottom: 50px;
+    background-color: var(--color1);
 }
 footer{
     height: 35px;
     width: 100%;
-    background-color: #025FFF;
+    background-color: var(--color2);
     position: absolute;
     bottom: 0;
     margin-top: 50px;
-    color: white;
+    color: var(--color3);
 }
 .logo{
     height:80px;
     width: auto;
+}
+.profileimg{
+    height: 150px;
+    width: 150px;
 }
 body, input[text], button {
   color: #888;
@@ -45,12 +57,20 @@ a {
 }
 button {
   font-family: Arial;
-  background-color: #eee;
+  background-color: var(--color2);
   border: none;
   padding: 5px 10px;
   border-radius: 4px;
   cursor: pointer;
   cursor: hand;
+}
+select{
+    font-family: Arial;
+    background-color: var(--color2);
+    border: none;
+}
+.btn {
+    color: var(--color3);
 }
 button:hover {
   background-color: #cfd8dc;
@@ -130,6 +150,23 @@ nav a.active {
   height: 1.8em;
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
+}
+.loader {
+  border: 16px solid var(--color3); /* Light grey */
+  border-top: 16px solid var(--color2); /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+.spinner{
+    align-text: center;
+    margin-top: 300px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 /* everywhere else */
 * {

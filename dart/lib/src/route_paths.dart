@@ -9,7 +9,7 @@ class RoutePaths {
 
   static final login = RoutePath(path: 'login');
   static final myprofile = RoutePath(path: 'profile');
-  static final welcome = RoutePath(path: '');
+  static final welcome = RoutePath(path: 'home');
   static final registration = RoutePath(path: 'registration');
   static final race = RoutePath(path: 'race');
   static final newgame = RoutePath(path: 'new');

@@ -1,3 +1,188 @@
-<body>
-Hello World Race
-</body>
+<div class="container menu">
+    <div class="row">
+        <div class="col-sm-3">
+            <button type="button" class="btn">
+                <i class="material-icons menuicon" (click)="goBackToHome()">home</i>
+            </button>
+        </div>
+        <div class="col-sm-3">
+            <h3>Leeds - 05.06.19</h3>
+        </div>
+        <div class="col-sm-3">
+            <h3>Partie 1</h3>
+        </div>
+        <div class="col-sm-2">
+            <h3>Titou du 85</h3>
+        </div>
+        <div class="col-sm-1">
+            <div class="btn-group dropleft">
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="material-icons menuicon">menu</i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#/profile">Mon profil</a><br/>
+                    <a class="dropdown-item" href="#">Paramètres</a><br/>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#/login">Me déconnecter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="alert container frame head">
+    <h4 class="title">Course</h4>
+</div>
+<div class="alert container frame">
+    <div class="alert component">
+        <div class="alert card_row">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="profile alert">
+                        <img class="profileimg" src="img/profile.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-2 athlete_info">
+                    <h4>LUIS Vincent</h4>
+                    <h4>1989</h4>
+                    <img class="flag_big" src="img/flag/fr.svg">
+                </div>
+                <div class="col-sm-2 level_info alert">
+                    <h4><i class="material-icons">pool</i> 82</h4>
+                    <h4><i class="material-icons">directions_bike</i> 78</h4>
+                    <h4><i class="material-icons">directions_run</i> 80</h4>
+                </div>
+                <div class="col-sm-2 athlete_info">
+                    <h4 class="effort">Effort</h4>
+                    <h4 class="effort">Energie</h4>
+                    <h4 class="effort">Forme du jour</h4>
+                </div>
+                <div class="col-sm-3 athlete_info">
+                    <input type="range" min="0" max="100" value="25"/>
+                    <div class="progress" style="margin-top: 15px; margin-bottom: 15px">
+                        <div class="progress-bar" role="progressbar" style="width: 50%; background-color: green !important" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress" style="margin-top: 15px; margin-bottom: 0px">
+                        <div class="progress-bar" role="progressbar" style="width: 75%; background-color: blue !important" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="col-sm-1 athlete_info">
+                    <h4 class="effort">25%</h4>
+                    <h4 class="effort">80%</h4>
+                    <h4 class="effort">25%</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert component">
+        <div class="alert card_row">
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-10">
+                    <div class="col-sm-4 sport">
+                        <i class="material-icons">pool</i>
+                    </div>
+                    <div class="col-sm-4 sport">
+                        <i class="material-icons">directions_bike</i>
+                    </div>
+                    <div class="col-sm-4 sport">
+                        <i class="material-icons">directions_run</i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-10">
+                    <div class="progress" style="margin: 0px">
+                        <div class="progress-bar" role="progressbar" style="width: 33%; background-color: #03D2CB !important" aria-valuenow="33" aria-valuemin="0" aria-valuemax="33"></div>
+                        <div class="progress-bar" role="progressbar" style="width: 33%; background-color: #818282 !important" aria-valuenow="15" aria-valuemin="0" aria-valuemax="33"></div>
+                        <div class="progress-bar" role="progressbar" style="width: 15%; background-color: #FE6601 !important" aria-valuenow="0" aria-valuemin="0" aria-valuemax="34"></div>
+                    </div>
+                </div>
+                <div class="col-sm-1">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert component">
+        <div class="alert card_row blue">
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-10">
+                    <div class="col-sm-1 sport">
+                        <i class="material-icons speed">pool</i>
+                    </div>
+                    <div class="col-sm-1 sport">
+                        <i class="material-icons speed">directions_bike</i>
+                    </div>
+                    <div class="col-sm-1 sport">
+                        <i class="material-icons speed">directions_run</i>
+                    </div>
+                    <div class="col-sm-1 sport">
+                        <i class="material-icons speed">directions_run</i>
+                    </div>
+                    <div class="col-sm-4 sport">
+                    </div>
+                    <div class="col-sm-1 sport">
+                        <button type="submit" class="btn res" (click)="goToResults()">Aller à la page des résultats</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert component">
+        <div class="alert card_row">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="alert tablediv">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col"><i class="material-icons">arrow_drop_down</i></th>
+                        <th scope="col">Nom <i class="material-icons">arrow_drop_down</i></th>
+                        <th scope="col">Prénom <i class="material-icons">arrow_drop_down</i></th>
+                        <th scope="col">Pays <i class="material-icons">arrow_drop_down</i></th>
+                        <th scope="col">Naissance <i class="material-icons">arrow_drop_down</i></th>
+                        <th scope="col"><i class="material-icons">pool</i><i class="material-icons">arrow_drop_down</i></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>LUIS</td>
+                        <td>Vincent</td>
+                        <td><img class="flag_small" src="img/flag/fr.svg"></td>
+                        <td>1989</td>
+                        <td>17'34"</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>MOLA</td>
+                        <td>Mario</td>
+                        <td><img class="flag_small" src="img/flag/es.svg"></td>
+                        <td>1990</td>
+                        <td>+34"</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>BLUMMENFELT</td>
+                        <td>Kristian</td>
+                        <td><img class="flag_small" src="img/flag/no.svg"></td>
+                        <td>1994</td>
+                        <td>+37"</td>
+                    </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

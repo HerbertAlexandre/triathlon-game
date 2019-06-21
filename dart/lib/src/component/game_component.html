@@ -1,8 +1,61 @@
-<body>
-Hello World Game
-<athletes_game></athletes_game>
-<general_game></general_game>
-<ranking_game></ranking_game>
-<results_game></results_game>
-<season_game></season_game>
-</body>
+<div class="container menu">
+    <div class="row">
+        <div class="col-sm-3">
+            <button type="button" class="btn">
+                <i class="material-icons menuicon" (click)="goBackToHome()">home</i>
+            </button>
+        </div>
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-3">
+            <h3>Partie 1</h3>
+        </div>
+        <div class="col-sm-2">
+            <h3>Titou du 85</h3>
+        </div>
+        <div class="col-sm-1">
+            <div class="btn-group dropleft">
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="material-icons menuicon">menu</i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#/profile">Mon profil</a><br/>
+                    <a class="dropdown-item" href="#">Paramètres</a><br/>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#/login">Me déconnecter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="alert container frame">
+            <ul class="nav nav-tabs nav-justified">
+                <li class="active"><a data-toggle="tab" href="#general" class="other_text">Général</a></li>
+                <li><a data-toggle="tab" href="#athletes" class="other_text">Athlètes</a></li>
+                <li><a data-toggle="tab" href="#results" class="other_text">Résultats</a></li>
+                <li><a data-toggle="tab" href="#ranking" class="other_text">Ranking</a></li>
+                <li><a data-toggle="tab" href="#season" class="other_text">Saison</a></li>
+                <li class="next"><a data-toggle="tab" href="#next_race" class="next_text" (click)="goToNextRace()">Course suivante</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="general" class="tab-pane fade in active">
+                    <general_game></general_game>
+                </div>
+                <div id="athletes" class="tab-pane fade">
+                    <athletes_game></athletes_game>
+                </div>
+                <div id="results" class="tab-pane fade">
+                    <results_game></results_game>
+                </div>
+                <div id="ranking" class="tab-pane fade">
+                    <ranking_game></ranking_game>
+                </div>
+                <div id="season" class="tab-pane fade">
+                    <season_game></season_game>
+                </div>
+                <div id="next_race" class="tab-pane fade">
+                </div>
+            </div>
+</div>

@@ -1,0 +1,123 @@
+.menu{
+    background-color: var(--color2);
+    width: 100%;
+    color: var(--color3);
+    margin-bottom : 50px;
+}
+.menuicon{
+    padding-top: 7px;
+    font-size: 18px;
+}
+h3{
+    margin-top: 8px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+.dropdown-item{
+    margin-top: 5px;
+    text-align: right;
+}
+.dropdown-menu{
+    background-color: var(--color5);
+    padding: 10px;
+}
+
+
+.frame{
+    background-color: var(--color3);
+    border-color: var(--color2);
+    border-width: fine;
+}
+.card_row{
+    border-color: var(--color2);
+    border-width: medium;
+    margin-bottom: 0px;
+}
+.profile{
+    border-right: fine solid var(--color2);
+    padding: 0px;
+    margin: 0px;
+}
+.profileimg{
+    width: 125px;
+    height: auto;
+}
+.flag_big{
+    width: 40px;
+    height: auto;
+}
+.athlete_info{
+    padding-top: 20px;
+    margin: 0px;
+}
+.level_info{
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border-left: medium solid var(--color2);
+    border-right: medium solid var(--color2);
+    width: 95px;
+    background-color: var(--color3);
+}
+.effort{
+    padding: 3px;
+    text-align: right;
+}
+h4{
+    color: var(--color2);
+    font-weight: bold;
+}
+.component{
+    margin: 0px;
+    padding: 0px;
+}
+.blue{
+    background-color: var(--color2);
+    color: var(--color3);
+    padding: 3px;
+}
+.res{
+    background-color: var(--color3);
+    color: var(--color2);
+}
+i.speed{
+    padding-top: 5px;
+}
+.flag_small{
+    width: 25px;
+    height: auto;
+}
+
+th{
+    background-color: var(--color2);
+    color: var(--color3);
+}
+.tablediv{
+    padding: 0px;
+    background-color: var(--color3);
+    border-color: var(--color2);
+    border-width: fine;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.table{
+    margin: 0px;
+}
+.head{
+    height: 35px;
+    background-color: var(--color2);
+    color: var(--color3);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+}
+h4.title{
+    color: var(--color3);
+}
+tr:hover{
+    background-color: var(--color5);
+}

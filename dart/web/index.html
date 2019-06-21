@@ -10,19 +10,19 @@
       }());
     </script>
 
-    <title>Angular Tour of Heroes</title>
+    <title>Triathlon Game</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="img/favicon.png">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="bootstrap-3.4.1/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="bootstrap-3.4.1/css/bootstrap.min.css">
 
     <script defer src="main.dart.js"></script>
     <script src="jquery-1.12.4.min.js"></script>
     <script src="bootstrap-3.4.1/js/bootstrap.min.js"></script>
   </head>
-  <header>
+  <!--<header>
     <div class="header">
       <div class="container">
         <div class="row">
@@ -36,11 +36,27 @@
         </div>
       </div>
     </div>
-  </header>
+  </header>-->
   <body>
-    <my-app>Loading...</my-app>
+    <my-app>
+      <div class="container spinner">
+        <div class="row">
+          <div class="col-sm-5">
+          </div>
+          <div class="col-sm-1">
+            <div class="loader"></div>
+          </div>
+          <div class="col-sm-5">
+          </div>
+        </div>
+      </div>
+    </my-app>
+    <audio autoplay id="myaudio" allow="autoplay">
+      <source src="music/PCM.mp3" type="audio/mpeg">
+    </audio>
+    <script> document.getElementById('myaudio').play(); </script>
   </body>
-  <footer>
+  <!--<footer>
     <div class="footer">
       <div class="container">
         <div class="row">
@@ -54,6 +70,5 @@
         </div>
       </div>
     </div>
-  </footer>
-
+  </footer>-->
 </html>

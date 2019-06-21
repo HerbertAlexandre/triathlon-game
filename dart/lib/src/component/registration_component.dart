@@ -16,6 +16,6 @@ class RegistrationComponent {
 
   RegistrationComponent(this._router);
 
-  Future<NavigationResult> gotoDetail() =>
-      _router.navigate(RoutePaths.hero.toUrl());
+  Future<NavigationResult> register() =>
+      _router.navigate(RoutePaths.login.toUrl());
 }

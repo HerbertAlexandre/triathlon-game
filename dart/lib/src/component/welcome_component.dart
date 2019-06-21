@@ -16,6 +16,9 @@ class WelcomeComponent {
 
   WelcomeComponent(this._router);
 
-  Future<NavigationResult> gotoDetail() =>
-      _router.navigate(RoutePaths.hero.toUrl());
+  Future<NavigationResult> createNewGame() =>
+      _router.navigate(RoutePaths.newgame.toUrl());
+
+  Future<NavigationResult> openGame() =>
+      _router.navigate(RoutePaths.game.toUrl());
 }

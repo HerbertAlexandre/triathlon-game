@@ -16,6 +16,9 @@ class ClassificationComponent {
 
   ClassificationComponent(this._router);
 
-  Future<NavigationResult> gotoDetail() =>
-      _router.navigate(RoutePaths.hero.toUrl());
+  Future<NavigationResult> goBackToHome() =>
+      _router.navigate(RoutePaths.welcome.toUrl());
+
+  Future<NavigationResult> goToGamePage() =>
+      _router.navigate(RoutePaths.game.toUrl());
 }

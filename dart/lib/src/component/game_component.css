@@ -1,0 +1,45 @@
+.menu{
+    background-color: var(--color2);
+    width: 100%;
+    color: var(--color3);
+    margin-bottom : 50px;
+}
+.menuicon{
+    padding-top: 7px;
+    font-size: 18px;
+}
+h3{
+    margin-top: 8px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+.dropdown-item{
+    margin-top: 5px;
+    text-align: right;
+}
+.dropdown-menu{
+    background-color: var(--color5);
+    padding: 10px;
+}
+.btn{
+    background-color: var(--color2);
+}
+.frame{
+    background-color: var(--color3);
+    border-color: var(--color2);
+    border-width: fine;
+    padding: 0px;
+}
+ul{
+    background-color: var(--color5);
+    font-weight: bold;
+}
+.next{
+    background-color: var(--color2);
+}
+.next_text{
+    color: var(--color3);
+}
+.other_text{
+    color: var(--color6);
+}
