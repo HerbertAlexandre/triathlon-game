@@ -14,12 +14,12 @@
                 </div>
                 <form>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Adresse mail</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <label>Adresse mail</label>
+                        <input type="email" class="form-control" placeholder="Email" [(ngModel)]="email">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Mot de passe</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <label>Mot de passe</label>
+                        <input type="password" class="form-control" placeholder="Mot de passe" [(ngModel)]="password">
                     </div>
                     <button type="submit" class="btn" (click)="login()">Me connecter</button>
                     <button type="submit" class="btn" (click)="goToRegistrationPage()">Créer mon compte</button>
