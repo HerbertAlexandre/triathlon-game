@@ -1,4 +1,5 @@
 
+import api.LoginApi;
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import org.glassfish.jersey.logging.LoggingFeature;
@@ -9,7 +10,7 @@ import java.net.URI;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class HelloLauncher {
+public class Launcher {
 
     public static final URI BASE_URI = getBaseURI();
 
@@ -19,7 +20,7 @@ public class HelloLauncher {
 
     public static void main(String[] args) {
         ResourceConfig rc = new ResourceConfig();
-        rc.registerClasses(HelloResource.class);
+        rc.registerClasses(LoginApi.class);
         rc.property(LoggingFeature.LOGGING_FEATURE_LOGGER_LEVEL_SERVER, Level.WARNING.getName());
 
         Logger.getLogger( "org.glassfish.jersey" ).setLevel( Level.SEVERE );
